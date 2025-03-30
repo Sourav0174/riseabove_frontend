@@ -18,7 +18,7 @@ class MeditationRemoteDatasourceImpl extends MeditationRemoteDatasource {
     try {
       final response = await client.get(
         Uri.parse(
-          "https://raiseabove-backend.onrender.com/meditation/dailyQuotes/",
+          "api",
         ),
       );
 
@@ -38,7 +38,7 @@ class MeditationRemoteDatasourceImpl extends MeditationRemoteDatasource {
     try {
       final response = await client.get(
         Uri.parse(
-          "https://raiseabove-backend.onrender.com/meditation/myMood/sad",
+          "api",
         ),
       );
 
